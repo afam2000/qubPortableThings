@@ -18,6 +18,3 @@ commands:
   toggleallowenderchest:
     description: toggle
     usage: /<command>
-  dirt:
-    description: toggle
-    usage: /<command>
