@@ -89,7 +89,7 @@ public final class PortableThings extends JavaPlugin implements Listener {
             for (Player player : getServer().getOnlinePlayers()) {
                 player.sendMessage("allowAnvil Toggled: " + allowAnvil);
             }
-        } 
+        }
         return true;
     }
 
