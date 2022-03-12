@@ -32,7 +32,6 @@ public final class PortableThings extends JavaPlugin implements Listener {
     boolean allowAnvil = true;
     boolean damageAnvil = true;
     private FileConfiguration config;
-    private HashMap<UUID,ItemStack> shulkerMap = new HashMap();
 
     private void fillConfig() {
         this.getConfig().options().copyDefaults();
