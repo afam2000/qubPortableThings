@@ -63,27 +63,27 @@ public final class PortableThings extends JavaPlugin implements Listener {
             }
         } else if (command.getName().equals("togglefrominventory")) {
             fromInventory = !fromInventory;
-            config.set("fromPunch", fromInventory);
+            config.set("fromInventory", fromInventory);
             saveConfig();
             for (Player player : getServer().getOnlinePlayers()) {
                 player.sendMessage("fromInventory Toggled: " + fromInventory);
             }
         } else if (command.getName().equals("toggleallowworkbench")) {
-            config.set("togglwallowworkbench", allowWorkbench);
+            config.set("allowWorkbench", allowWorkbench);
             saveConfig();
             for (Player player : getServer().getOnlinePlayers()) {
                 player.sendMessage("allowWorkbench Toggled: " + allowWorkbench);
             }
         } else if (command.getName().equals("toggleallowenderchest")) {
             allowEnderChest = !allowEnderChest;
-            config.set("fromPunch", allowEnderChest);
+            config.set("allowEnderChest", allowEnderChest);
             saveConfig();
             for (Player player : getServer().getOnlinePlayers()) {
                 player.sendMessage("allowEnderChest Toggled: " + allowEnderChest);
             }
         } else if (command.getName().equals("toggleallowanvil")) {
             allowAnvil = !allowAnvil;
-            config.set("fromPunch", allowAnvil);
+            config.set("allowAnvil", allowAnvil);
             saveConfig();
             for (Player player : getServer().getOnlinePlayers()) {
                 player.sendMessage("allowAnvil Toggled: " + allowAnvil);
