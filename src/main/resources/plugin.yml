@@ -1,0 +1,23 @@
+name: PortableThings
+version: '${project.version}'
+main: qub.portablethings.PortableThings
+api-version: 1.18
+commands:
+  togglefrominventory:
+    description: toggle
+    usage: /<command>
+  togglefrompunch:
+    description: toggle
+    usage: /<command>
+  toggleallowworkbench:
+    description: toggle
+    usage: /<command>
+  toggleallowanvil:
+    description: toggle
+    usage: /<command>
+  toggleallowenderchest:
+    description: toggle
+    usage: /<command>
+  dirt:
+    description: toggle
+    usage: /<command>
